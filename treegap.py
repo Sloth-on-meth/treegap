@@ -12,3 +12,4 @@ while True:
     Formatted_Treegap = ("{:,d}".format(int(Treegap)))
     percentage = ((int(Treecount) / int(20000000)) * 100)
     perc2 = round(percentage ,2)
+    newtweet = (f"🌳 Planted: {Formatted_Treecount} 🌳\n🌳 Remaining: {Formatted_Treegap} 🌳 \n🌳 {perc2}% of goal 🌳 \n🌳 {daystogo} days remaining 🌳 \n🌳 DONATE $1, PLANT A TREE 🌳 \n🌳 http://teamtrees.org 🌳")
